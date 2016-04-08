@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    font-family: sans-serif, Trebuchet MS;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: #234169;
+    height: 110px;
+    position: fixed;
+    width: 100%;
+}
+
+#navbar .container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    font-size: 15pt;
+}
+
+.container ul li {
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    list-style: none;
+    float: right;
+    padding: 43px 35px 0px 0px;
+    display: inline;
+}
+
+.color2 {
+    background-color: #3BC5AD;
+    color: #FFFFFF;
+    text-align: center;
+    height: 770px;
+    padding: 190px;
+}
+
+.color2 h1 {
+    font-size: 70px;
+    padding: 30px
+}
+
+.color2 p {
+    font-size: 25px;
+    padding: 25px;
+}
+
+.star1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #234169;
+}
+
+.line1 {
+    border: 0;
+    height: 5px;
+    width: 120px;
+    margin: 15px;
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+
+.line2 {
+    border: 0;
+    height: 5px;
+    width: 120px;
+    margin: 15px;
+    background-color: #234169;
+    display: inline-block;
+}
+
+.color3 {
+    text-align: center;
+    padding: 100px 0px 90px 0px
+}
+
+.color3 h1 {
+    font-size: 44px;
+    color: #234169;
+    padding: 0px 0px 10px 0px
+}
+
+.color3 div {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.color3 img {
+    max-width: 390px;
+    padding: 13px;
+}
+
+.color4 {
+    text-align: center;
+    background-color: #3BC5AD;
+    min-height: 500px;
+    color: #FFFFFF;
+}
+
+.color4 h1 {
+    font-size: 44px;
+    color: #FFFFFF;
+    padding: 90px 0px 10px 0px;
+    text-align: center;
+}
+
+.color4 .color4container {
+    display: inline-block;
+    vertical-align: text-top;
+    text-align: left;
+    max-width: 360px;
+    margin: 15px;
+}
+
+.color4 p {
+    font-size: 19px;
+    line-height: 28px;
+}
+
+.color4 a {
+    text-decoration: none;
+    color: #234169;
+    font-size: 20px;
+    width: 220px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 20px;
+    border-color: #FFFFFF;
+    margin: 0 auto;
+    display: block;
+}
+
+.color4 a:hover {
+    background-color: #FFFFFF;
+}
+
+.color5 {
+    min-height: 850px;
+    text-align: center;
+}
+
+.color5 h1 {
+    color: #234169;
+    font-size: 45px;
+    padding: 90px 0px 10px 0px;
+}
+
+.color5 .color5container {
+    margin: 0 auto;
+    max-width: 780px;
+    padding: 30px 0px 0px 0px
+}
+
+.color5 li {
+    list-style: none;
+    color: #BFBFBF;
+    font-size: 18pt;
+    padding: 30px 0px 30px 20px;
+    border-style: solid;
+    border-color: #E6E6E6;
+    border-width: 1px 0px 0px 0px;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+#message {
+    padding: 30px 0px 160px 20px;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+}
+
+.color5 a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 23px;
+    background-color: #3BC5AD;
+    margin: 20px 0px 0px 50px;
+    display: block;
+}
+
+.color6 {
+    min-height: 270px;
+    background-color: #46487C;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.color6 .info {
+    width: 350px;
+    margin: 40px 20px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.color6 h1 {
+    font-size: 25px;
+    padding: 30px;
+}
+
+.color6 p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.info span {
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 40px;
+    margin: 5px;
+}
+
+.color6 div a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.color6 div a:hover {
+    text-decoration: none;
+    border-color: #FFFFFF;
+    color: #3BC5AD;
+}
+
+.color6 p a {
+    text-decoration: none;
+    color: #3BC5AD;
+}
+
+.color6 p a:hover {
+    text-decoration: underline;
+}
+
+.color7 {
+    height: 70px;
+    color: #FFFFFF;
+    background-color: #234169;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
