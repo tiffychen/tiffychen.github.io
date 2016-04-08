@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    font-family: sans-serif, Trebuchet MS, 微軟正黑體;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: black;
+    color: gray;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+#navbox {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    padding: 0px 0px 0px 20px;
+    float: left;
+}
+
+.list li {
+    line-height: 100px;
+    list-style: none;
+}
+
+.list ul {
+    font-size: 16px;
+    display: inline;
+}
+
+#head {
+    max-width: 1040px;
+    min-height: 600px;
+    padding: 160px 20px 0px 20px;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 1020px;
+    min-height: 400px;
+    padding: 80px 40px;
+    background-color: #E6E6E6;
+}
+
+#head h1 {
+    font-size: 60px;
+    line-height: 100px;
+}
+
+#head p {
+    font-size: 17px;
+    line-height: 40px;
+    padding: 0px 0px 10px 0px;
+}
+
+#float {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.boxbox {
+    float: left;
+    padding: 0px 0px 30px 0px;
+}
+
+.box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    padding: 5px 5px 15px 5px;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+#float h2 {
+    padding: 20px 10px;
+}
+
+.box p {
+    line-height: 26px;
+    padding: 0px 0px 10px 0px;
+}
+
+.buttom {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #1F91DC;
+    color: #FFF;
+    font-size: 16px;
+    max-width: 130px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+.buttom1 {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #1F91DC;
+    color: #FFF;
+    font-size: 16px;
+    max-width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.buttom2 {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #FFF;
+    color: #808080;
+    font-size: 16px;
+    max-width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.copyright {
+    max-width: 1020px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 50px 10px;
+    color: #000000;
+    clear: both;
+}
+
+@media screen and (min-width: 1201px) {
+    .boxbox {
+        width: 25%;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .boxbox {
+        width: 50%;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .boxbox {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+    }
+}
