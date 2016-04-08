@@ -1,0 +1,75 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    -webkit-flex: none;
+    flex: none;
+    background-color: #847577;
+    color: white;
+    font-style: Arial black;
+    font-size: 40px;
+    height: 100px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.sectionall {
+    display: -webkit-flex;
+    display: flex;
+    height: 650px;
+}
+
+.aside {
+    -webkit-flex: initial;
+    flex: initial;
+    background-color: #CFD2CD;
+    width: 200px;
+    padding: 10px;
+    float: left;
+}
+
+.section1 {
+    -webkit-flex: 2;
+    flex: 2;
+    background-color: #A6A2A2;
+    color: white;
+    font-style: Arial;
+    font-size: 15px;
+    padding: 10px;
+    float: right;
+}
+
+.section2 {
+    -webkit-flex: 1;
+    flex: 1;
+    background-color: #CFD2CD;
+    color: black;
+    font-style: Arial;
+    font-size: 15px;
+    padding: 10px;
+    float: right;
+}
+
+.footer {
+    background-color: #323b38;
+    color: white;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    clear: both;
+}
